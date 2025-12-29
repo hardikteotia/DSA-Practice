@@ -28,7 +28,7 @@ public class LinkedList {
 
         while(tempNodeAsHead!=null){
             System.out.print(tempNodeAsHead.data + " -> ");
-            tempNodeAsHead = tempNodeAsHead.next;//if we dont use this line then it will make the loop infinite since it will never be null
+            tempNodeAsHead = tempNodeAsHead.next;//if we dont use this line then it will make the loop infinite  since it will never be null
         }
     }
 
